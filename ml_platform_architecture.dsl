@@ -1,7 +1,7 @@
 workspace {
 
     model {
-        customer = person "Customer" "Customer using the banking app" "External"
+        customer = person "Customer" "Customer using the app" "External"
         data_scientist = person "Data Scientist" "Data scientist developing a machine learning model" "External"
         
         ml_platform = softwareSystem "ML Platform" "Machine learning model serving platform exposing models over REST and Kafka." {
