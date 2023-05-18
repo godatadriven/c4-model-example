@@ -34,7 +34,7 @@ jobs:
       - name: Create site
         run: |
           mkdir -p build/site
-          cat "Hello world" > build/site/index.html
+          echo "Hello world" > build/site/index.html
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
