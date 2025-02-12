@@ -2,7 +2,8 @@
   "id" : 1,
   "name" : "Name",
   "description" : "Description",
-  "lastModifiedDate" : "2025-02-12T13:12:00Z",
+  "lastModifiedDate" : "2025-02-12T13:12:25Z",
+  "lastModifiedAgent" : "structurizr-javascript",
   "properties" : {
     "structurizr.dsl" : "d29ya3NwYWNlIHsKICAgCiAgICBtb2RlbCB7CiAgICAgIGN1c3RvbWVyID0gcGVyc29uICJGYW5jeSBGYXNoaW9uIGN1c3RvbWVyIiB7CiAgICAgICAgZGVzY3JpcHRpb24gIkluZGl2aWR1YWwgdXNpbmcgdGhlIEZhbmN5IEZhc2hpb24gYXBwIHRvIGJ1eSBhbmQgc2VsbCBzZWNvbmQtaGFuZCBjbG90aGluZy4iCiAgICAgICAgdGFncyAiRXh0ZXJuYWwsIFBlcnNvbiIKICAgICAgfQogICAgICAKICAgICAgaW1hZ2VfdGFnZ2luZyA9IHNvZnR3YXJlU3lzdGVtICJJbWFnZSB0YWdnaW5nIHN5c3RlbSIgewogICAgICAgIGRlc2NyaXB0aW9uICJNYWNoaW5lIGxlYXJuaW5nIHN5c3RlbSBjYXRlZ29yaXNpbmcgaW1hZ2VzIG9mIGZhc2hpb24gaXRlbXMgYW5kIGdlbmVyYXRlcyB0YWdzIGZvciB0aGVtIHRvIGltcHJvdmUgZWFzZSBvZiBmaW5kaW5nIGl0ZW1zLiIKCiAgICAgICAgbW9kZWxfYXBwbGljYXRpb24gPSBjb250YWluZXIgIk1vZGVsIGFwcGxpY2F0aW9uIiB7CiAgICAgICAgICBkZXNjcmlwdGlvbiAiTWFjaGluZSBsZWFybmluZyBtb2RlbCBhcHBsaWNhdGlvbiBzZXJ2aW5nIG1vZGVsIG9ubGluZSBzeW5jaHJvbm91c2x5IGFzIGEgUkVTVCBBUEkuIFJlY2VpdmVzIGltYWdlcyBhbmQgcmV0dXJucyB0YWdzLiBJbmNsdWRlcyBhbiBlbmRwb2ludCB0byBnYXRoZXIgZmVlZGJhY2sgZnJvbSBjdXN0b21lcnMgb24gdGFncy4gRXhwb3NlcyBtZXRyaWNzIGVuZHBvaW50IHRvIG1vbml0b3IgcGVyZm9ybWFuY2UuIgogICAgICAgICAgdGVjaG5vbG9neSAiUHl0aG9uLCBGYXN0QVBJIgoKICAgICAgICAgIHByZWRpY3Rpb25fZW5kcG9pbnQgPSBjb21wb25lbnQgIlByZWRpY3Rpb24gZW5kcG9pbnQiIHsKICAgICAgICAgICAgZGVzY3JpcHRpb24gIkVuZHBvaW50IHRoYXQgcmVjZWl2ZXMgaW1hZ2VzIGFuZCByZXR1cm5zIHRhZ3MuIgogICAgICAgICAgfQoKICAgICAgICAgIGZlZWRiYWNrX2VuZHBvaW50ID0gY29tcG9uZW50ICJGZWVkYmFjayBlbmRwb2ludCIgewogICAgICAgICAgICBkZXNjcmlwdGlvbiAiRW5kcG9pbnQgdGhhdCByZWNlaXZlcyBhZHZlcnRpc2VtZW50IElELCBtb2RlbCBJRCwgYW5kIHRhZ3MuIgogICAgICAgICAgfQoKICAgICAgICAgIG1ldHJpY3NfZW5kcG9pbnQgPSBjb21wb25lbnQgIk1ldHJpY3MgZW5kcG9pbnQiIHsKICAgICAgICAgICAgZGVzY3JpcHRpb24gIkVuZHBvaW50IGV4cG9zaW5nIHRleHQgYmFzZWQgbWV0cmljcyBmb3IgUHJvbWV0aGV1cyBzY3JhcGluZy4iCgogICAgICAgICAgICBmZWVkYmFja19lbmRwb2ludCAtPiB0aGlzICJTZXQgZmVlZGJhY2sgbWV0cmljcyIKICAgICAgICAgIH0KCiAgICAgICAgICBwcmVkaWN0aW9uX21vZGVsID0gY29tcG9uZW50ICJJbWFnZSBjbGFzc2lmaWNhdGlvbiBtb2RlbCIgewogICAgICAgICAgICBkZXNjcmlwdGlvbiAiTWFjaGluZSBsZWFybmluZyBtb2RlbCB0aGF0IHByZWRpY3RzIHRhZ3MgZm9yIGltYWdlcy4iCgogICAgICAgICAgICB0ZWNobm9sb2d5ICJQeVRvcmNoIgogICAgICAgICAgfQoKICAgICAgICAgIG1vZGVsX3ByZXByb2Nlc3NpbmcgPSBjb21wb25lbnQgIlByZXByb2Nlc3NpbmciIHsKICAgICAgICAgICAgZGVzY3JpcHRpb24gIlByZXByb2Nlc3NlcyBpbWFnZXMgYmVmb3JlIGZlZWRpbmcgdGhlbSBpbnRvIHRoZSBtb2RlbC4iCgogICAgICAgICAgICB0aGlzIC0+IHByZWRpY3Rpb25fbW9kZWwgIkNhbGwgbW9kZWwiCiAgICAgICAgICAgIHByZWRpY3Rpb25fZW5kcG9pbnQgLT4gdGhpcyAiQ2FsbCB3aXRoIGltYWdlcyIKICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIGltYWdlX21ldGFkYXRhX2RiID0gY29udGFpbmVyICJJbWFnZSBtZXRhZGF0YSBkYXRhYmFzZSIgewogICAgICAgICAgZGVzY3JpcHRpb24gIk9MVFAgZGF0YWJhc2Ugc3RvcmluZyBtZXRhZGF0YSBhYm91dCBpbWFnZXMuIE1ldGFkYXRhIGluY2x1ZGVzIHRhZ3MsIGltYWdlIElELCBmZWVkYmFjayBldGMuIgogICAgICAgICAgdGFncyA9ICJEYXRhYmFzZSIKCiAgICAgICAgICB0ZWNobm9sb2d5ICJQb3N0Z3JlU1FMIgoKICAgICAgICAgIGZlZWRiYWNrX2VuZHBvaW50IC0+IHRoaXMgIlJlYWQgYW5kIHdyaXRlIGRhdGEiICJPREJDIgogICAgICAgIH0KCiAgICAgICAgbW9kZWxfcGVyZm9ybWFuY2VfZGFzaGJvYXJkID0gY29udGFpbmVyICJNb2RlbCBwZXJmb3JtYW5jZSBkYXNoYm9hcmQiIHsKICAgICAgICAgIGRlc2NyaXB0aW9uICJWaXN1YWxpemVzIHRlY2huaWNhbCBhbmQgZnVuY3Rpb25hbCBtZXRyaWNzIHRvIHByb3ZpZGUgaW5zaWdodHMgaW50byBtb2RlbCBwZXJmb3JtYW5jZS4iCgogICAgICAgICAgdGVjaG5vbG9neSAiR3JhZmFuYSIKICAgICAgICAgIHRhZ3MgIkZFIgogICAgICAgIH0KCiAgICAgICAgbWV0cmljX2NvbGxlY3Rpb25fY29uZmlnID0gY29udGFpbmVyICJNZXRyaWMgY29sbGVjdGlvbiBjb25maWd1cmF0aW9uIiB7CiAgICAgICAgICBkZXNjcmlwdGlvbiAiRGVmaW5lcyB3aGljaCBtZXRyaWNzIG5lZWQgdG8gYmUgY29sbGVjdGVkIGZyb20gYXBwbGljYXRpb25zIHdpdGhpbiB0aGUgaW1hZ2UgdGFnZ2luZyBzb2Z0d2FyZSBzeXN0ZW0uIENvbmZpZ3VyYXRpb24gaXMgc3RvcmVkIGluIGdpdC4iCgogICAgICAgICAgdGVjaG5vbG9neSAiUHJvbWV0aGV1cyBZQU1MIgogICAgICAgIH0KCiAgICAgICAgbW9kZWxfZmlsZSA9IGNvbnRhaW5lciAiU2VyaWFsaXplZCBtb2RlbCIgewogICAgICAgICAgZGVzY3JpcHRpb24gIlNlcmlhbGl6ZWQgbW9kZWwgZmlsZSBjb250YWluaW5nIHRoZSBtYWNoaW5lIGxlYXJuaW5nIG1vZGVsIHdlaWdodHMgYW5kIHBhcmFtZXRlcnMgc3RvcmVkIGluIGEgbW9kZWwgcmVnaXN0cnkuIgogICAgICAgICAgdGFncyAiTW9kZWwgUmVnaXN0cnkiCgogICAgICAgICAgdGVjaG5vbG9neSAiTUxGbG93IgoKICAgICAgICAgIHByZWRpY3Rpb25fbW9kZWwgLT4gdGhpcyAiTG9hZHMgbW9kZWwiICJIVFRQUyIKICAgICAgICB9CgogICAgICAgIG1vZGVsX3RyYWluaW5nID0gY29udGFpbmVyICJNb2RlbCB0cmFpbmluZyIgewogICAgICAgICAgZGVzY3JpcHRpb24gIlBpcGVsaW5lIHRoYXQgdHJhaW5zIGEgbmV3IG1vZGVsIGJhc2VkIG9uIGxhYmVsbGVkIGltYWdlIGRhdGEuIgogICAgICAgICAgdGFncyAiUGlwZWxpbmUiCgogICAgICAgICAgdGhpcyAtPiBtb2RlbF9maWxlICJXcml0ZSBjYW5kaWRhdGUgbW9kZWwiCiAgICAgICAgfQoKICAgICAgICBwcmVwcm9jZXNzaW5nID0gY29udGFpbmVyICJEYXRhIHByZXByb2Nlc3NpbmciIHsKICAgICAgICAgIGRlc2NyaXB0aW9uICJQaXBlbGluZSB0aGF0IHJlYWRzIGltYWdlcyBhbmQgYXBwbGllcyBwcmVwcm9jZXNzaW5nIGxvZ2ljIChlLmcuIHJlc2l6aW5nKS4iCiAgICAgICAgICB0YWdzICJQaXBlbGluZSIKCiAgICAgICAgICBpbWFnZV9sb2FkaW5nID0gY29tcG9uZW50ICJSZWFkIGltYWdlcyIgewogICAgICAgICAgICBkZXNjcmlwdGlvbiAiUmVhZHMgcmF3IGltYWdlcyBmcm9tIHRoZSBkYXRhIGxha2UuIgoKICAgICAgICAgICAgdGFncyAiUGlwZWxpbmUiCiAgICAgICAgICB9CgogICAgICAgICAgcHJlcHJvY2Vzc2luZ19sb2dpYyA9IGNvbXBvbmVudCAiUHJlcHJvY2Vzc2luZyIgewogICAgICAgICAgICBkZXNjcmlwdGlvbiAiUmVhZHMgcmF3IGltYWdlcywgcHJlcHJvY2Vzc2VzIHRoZW0gYW5kIHN0b3JlcyBwcmVwcm9jZXNzZWQgaW1hZ2VzLiIKICAgICAgICAgICAgdGFncyAiUGlwZWxpbmUiCgogICAgICAgICAgICBpbWFnZV9sb2FkaW5nIC0+IHRoaXMgIkNhbGwgd2l0aCBpbWFnZXMiCiAgICAgICAgICB9CiAgICAgICAgfQogICAgICB9CiAgICAgIAogICAgICBkYXRhX2xha2UgPSBzb2Z0d2FyZVN5c3RlbSAiRGF0YSBsYWtlIiB7CiAgICAgICAgZGVzY3JpcHRpb24gIkZhbmN5IGZhc2hpb24ncyBjZW50cmFsIHN0b3JhZ2UgbG9jYXRpb24gZm9yIHN0cnVjdHVyZWQgYW5kIHVuc3RydWN0dXJlZCBkYXRhLiIKICAgICAgICB0YWdzICJFeHRlcm5hbCwgRGF0YWJhc2UiCgogICAgICAgIGltYWdlcyA9IGNvbnRhaW5lciAiSW1hZ2VzIiB7CiAgICAgICAgICBkZXNjcmlwdGlvbiAiU3RvcmFnZSBhY2NvdW50IGNvbnRhaW5pbmcgaW1hZ2VzIG9mIGZhc2hpb24gaXRlbXMgc3RvcmVkIGJ5IElELiIKICAgICAgICAgIHRhZ3MgIkV4dGVybmFsLCBEYXRhYmFzZSIKCiAgICAgICAgICB0ZWNobm9sb2d5ICJTMyIKCiAgICAgICAgICBtb2RlbF90cmFpbmluZyAtPiB0aGlzICJSZWFkIHByZXByb2Nlc3NlcyBpbWFnZXMiCiAgICAgICAgICBpbWFnZV9sb2FkaW5nIC0+IHRoaXMgIlJlYWQgaW1hZ2VzIgogICAgICAgICAgcHJlcHJvY2Vzc2luZ19sb2dpYyAtPiB0aGlzICJXcml0ZSBwcmVwcm9jZXNzZWQgaW1hZ2VzIgogICAgICAgIH0KCiAgICAgICAgaW1hZ2VfbWV0YWRhdGEgPSBjb250YWluZXIgIkltYWdlIHRyYWluaW5nIGRhdGEiIHsKICAgICAgICAgIGRlc2NyaXB0aW9uICJPTEFQIGRhdGFzdG9yZSBjb250YWluaW5nIG1ldGFkYXRhIGFib3V0IGltYWdlcy4gTWV0YWRhdGEgaW5jbHVkZXMgdGFncywgaW1hZ2UgSUQsIGltYWdlIFVSTCBldGMuIgogICAgICAgICAgdGFncyAiRXh0ZXJuYWwsIERhdGFiYXNlIgoKICAgICAgICAgIHRlY2hub2xvZ3kgIlBhcnF1ZXQiCgogICAgICAgICAgaW1hZ2VfbWV0YWRhdGFfZGIgLT4gdGhpcyAiV3JpdGUgdG8gYW5hbHl0aWNzIGVudmlyb25tZW50IgogICAgICAgICAgbW9kZWxfdHJhaW5pbmcgLT4gdGhpcyAiUmVhZCBsYWJlbHMiCiAgICAgICAgfQogICAgICB9CiAgICAgIAogICAgICBmYW5jeV9mYXNoaW9uX2FwcCA9IHNvZnR3YXJlU3lzdGVtICJGYW5jeSBGYXNoaW9uIiB7CiAgICAgICAgZGVzY3JpcHRpb24gIkUtY29tbWVyY2UgYXBwbGljYXRpb24gZm9yIHNlbGxpbmcgc2Vjb25kLWhhbmQgZmFzaGlvbiBpdGVtcy4iCiAgICAgICAgdGFncyAiRXh0ZXJuYWwiCiAgICAgICAgCiAgICAgICAgZnJvbnRfZW5kID0gY29udGFpbmVyICJGcm9udGVuZCIgewogICAgICAgICAgZGVzY3JpcHRpb24gIldlYiBhcHBsaWNhdGlvbiBvciBtb2JpbGUgYXBwbGljYXRpb24gZm9yIHVzZXJzIHRvIGludGVyYWN0IHdpdGggZmFzaGlvbiBpdGVtIGFkdmVydGlzZW1lbnRzLiIKICAgICAgICAgIHRhZ3MgIkV4dGVybmFsLCBEYXRhYmFzZSIKCiAgICAgICAgICBjdXN0b21lciAgICAtPiB0aGlzICJCcm93c2UsIHB1cmNoYXNlLCBhbmQgc2VsbCBpdGVtcyIgIkhUVFBTIgogICAgICAgIH0KCiAgICAgICAgYmFja19lbmQgPSBjb250YWluZXIgIkJhY2tlbmQiIHsKICAgICAgICAgIGRlc2NyaXB0aW9uICJTZXJ2ZXItc2lkZSBhcHBsaWNhdGlvbiBoYW5kbGluZyB1c2VyIHJlcXVlc3RzLCBtYW5hZ2luZyBpbnZlbnRvcnksIGFuZCBwcm9jZXNzaW5nIHBheW1lbnRzLiIKICAgICAgICAgIHRhZ3MgIkV4dGVybmFsIgoKICAgICAgICAgIGZyb250X2VuZCAgIC0+IHRoaXMgIlJlcXVlc3QgYWR2ZXJ0aXNlbWVudCBkYXRhIiAiSFRUUFMiCiAgICAgICAgICB0aGlzICAgICAgICAtPiBwcmVkaWN0aW9uX2VuZHBvaW50ICJSZXF1ZXN0IGltYWdlIHRhZ3MiICJIVFRQUyIKICAgICAgICAgIHRoaXMgICAgICAgIC0+IGZlZWRiYWNrX2VuZHBvaW50ICJTZW5kcyBjdXN0b21lciBmZWVkYmFjayIgIkhUVFBTIgogICAgICAgIH0KCiAgICAgICAgZGF0YWJhc2UgPSBjb250YWluZXIgIkRhdGFiYXNlIiB7CiAgICAgICAgICBkZXNjcmlwdGlvbiAiVGhlIGRhdGFiYXNlIHN0b3JlcyB1c2VyIGRhdGEsIHByb2R1Y3QgZGF0YSwgYW5kIHRyYW5zYWN0aW9uIGRhdGEuIgogICAgICAgICAgdGFncyAiRXh0ZXJuYWwsIERhdGFiYXNlIgoKICAgICAgICAgIGJhY2tfZW5kIC0+IHRoaXMgIlJlYWQgYW5kIHdyaXRlIGRhdGEiICJTUUwiCiAgICAgICAgfQogICAgICB9CgogICAgICBtZXRyaWNfY29sbGVjdGlvbiA9IHNvZnR3YXJlU3lzdGVtICJNZXRyaWMgY29sbGVjdGlvbiIgewogICAgICAgIGRlc2NyaXB0aW9uICJDZW50cmFsbHkgbWFuYWdlZCBzeXN0ZW0gY29sbGVjdGluZyBtZXRyaWNzIGZyb20gdmFyaW91cyBhcHBsaWNhdGlvbnMgYnkgc2NyYXBpbmcuIgogICAgICAgIHRhZ3MgIkV4dGVybmFsIgoKICAgICAgICBtZXRyaWNfY29sbGVjdG9yID0gY29udGFpbmVyICJNZXRyaWMgY29sbGVjdG9yIiB7CiAgICAgICAgICBkZXNjcmlwdGlvbiAiQXBwbGljYXRpb24gdGhhdCBjb2xsZWN0cyBtZXRyaWNzIGZyb20gdmFyaW91cyBhcHBsaWNhdGlvbnMuIgogICAgICAgICAgdGFncyAiRXh0ZXJuYWwiCgogICAgICAgICAgdGhpcyAtPiBtb2RlbF9hcHBsaWNhdGlvbiAiU2NyYXBlcyBtZXRyaWNzIiAiSFRUUFMiCiAgICAgICAgICB0aGlzIC0+IG1ldHJpY19jb2xsZWN0aW9uX2NvbmZpZyAiUmVhZHMgY29uZmlndXJhdGlvbiIKICAgICAgICAgIG1vZGVsX3BlcmZvcm1hbmNlX2Rhc2hib2FyZCAtPiB0aGlzICJRdWVyeSBtZXRyaWNzIiAiUHJvbVFMIgogICAgICAgIH0KCiAgICAgIH0KICAgIH0KICAgCiAgdmlld3MgewogICAgc3lzdGVtQ29udGV4dCBpbWFnZV90YWdnaW5nIHsKICAgICAgICBpbmNsdWRlICoKICAgICAgICBpbmNsdWRlIGN1c3RvbWVyCiAgICB9CiAgICAKICAgIGNvbnRhaW5lciBpbWFnZV90YWdnaW5nIHsKICAgICAgaW5jbHVkZSAqCiAgICAgIGluY2x1ZGUgY3VzdG9tZXIKICAgICAgaW5jbHVkZSBtb2RlbF90cmFpbmluZy0+aW1hZ2VzCiAgICB9CiAgICAKICAgIGNvbXBvbmVudCBtb2RlbF9hcHBsaWNhdGlvbiB7CiAgICAgIGluY2x1ZGUgKgogICAgfQogICAgCiAgICBjb21wb25lbnQgcHJlcHJvY2Vzc2luZyB7CiAgICAgIGluY2x1ZGUgKgogICAgfQoKICAgIHN0eWxlcyB7CiAgICAgIGVsZW1lbnQgIkVsZW1lbnQiIHsKICAgICAgICBiYWNrZ3JvdW5kICM0MzI2RkYKICAgICAgfQogICAgICBlbGVtZW50ICJNb2RlbCBSZWdpc3RyeSIgewogICAgICAgIGljb24gImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9tbGZsb3cvbWxmbG93L21hc3Rlci9kb2NzL3NvdXJjZS9fc3RhdGljL01MZmxvdy1sb2dvLWZpbmFsLWJsYWNrLnBuZyIKICAgICAgfQogICAgICBlbGVtZW50ICJFeHRlcm5hbCIgewogICAgICAgIGJhY2tncm91bmQgI2NjY2NjYwogICAgICB9CiAgICAgIGVsZW1lbnQgIkZFIiB7CiAgICAgICAgc2hhcGUgV2ViQnJvd3NlcgogICAgICB9CiAgICAgIGVsZW1lbnQgIkRhdGFiYXNlIiB7CiAgICAgICAgc2hhcGUgQ3lsaW5kZXIKICAgICAgfQogICAgICBlbGVtZW50ICJQZXJzb24iIHsKICAgICAgICBzaGFwZSBQZXJzb24KICAgICAgfQogICAgICBlbGVtZW50ICJQaXBlbGluZSIgewogICAgICAgIHNoYXBlIFBpcGUKICAgICAgICAKICAgICAgICB3aWR0aCA1MDAKICAgICAgICBoZWlnaHQgMjAwCiAgICAgIH0KICAgIH0KICB9Cn0K"
   },
@@ -17,19 +18,19 @@
       "name" : "Fancy Fashion customer",
       "description" : "Individual using the Fancy Fashion app to buy and sell second-hand clothing.",
       "relationships" : [ {
-        "id" : "45",
-        "tags" : "Relationship",
-        "sourceId" : "1",
-        "destinationId" : "44",
-        "description" : "Browse, purchase, and sell items",
-        "technology" : "HTTPS"
-      }, {
         "id" : "46",
         "sourceId" : "1",
         "destinationId" : "43",
         "description" : "Browse, purchase, and sell items",
         "technology" : "HTTPS",
         "linkedRelationshipId" : "45"
+      }, {
+        "id" : "45",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "44",
+        "description" : "Browse, purchase, and sell items",
+        "technology" : "HTTPS"
       } ],
       "location" : "Unspecified"
     } ],
@@ -42,23 +43,17 @@
       "name" : "Image tagging system",
       "description" : "Machine learning system categorising images of fashion items and generates tags for them to improve ease of finding items.",
       "relationships" : [ {
-        "id" : "30",
+        "id" : "41",
         "sourceId" : "2",
-        "destinationId" : "27",
-        "description" : "Read preprocesses images",
-        "linkedRelationshipId" : "28"
+        "destinationId" : "38",
+        "description" : "Write to analytics environment",
+        "linkedRelationshipId" : "39"
       }, {
         "id" : "31",
         "sourceId" : "2",
         "destinationId" : "26",
         "description" : "Read preprocesses images",
         "linkedRelationshipId" : "28"
-      }, {
-        "id" : "41",
-        "sourceId" : "2",
-        "destinationId" : "38",
-        "description" : "Write to analytics environment",
-        "linkedRelationshipId" : "39"
       }, {
         "id" : "69",
         "sourceId" : "2",
@@ -73,34 +68,15 @@
         "description" : "Query metrics",
         "technology" : "PromQL",
         "linkedRelationshipId" : "67"
+      }, {
+        "id" : "30",
+        "sourceId" : "2",
+        "destinationId" : "27",
+        "description" : "Read preprocesses images",
+        "linkedRelationshipId" : "28"
       } ],
       "location" : "Unspecified",
       "containers" : [ {
-        "id" : "15",
-        "tags" : "Element,Container,FE",
-        "properties" : {
-          "structurizr.dsl.identifier" : "model_performance_dashboard"
-        },
-        "name" : "Model performance dashboard",
-        "description" : "Visualizes technical and functional metrics to provide insights into model performance.",
-        "relationships" : [ {
-          "id" : "67",
-          "tags" : "Relationship",
-          "sourceId" : "15",
-          "destinationId" : "60",
-          "description" : "Query metrics",
-          "technology" : "PromQL"
-        }, {
-          "id" : "68",
-          "sourceId" : "15",
-          "destinationId" : "59",
-          "description" : "Query metrics",
-          "technology" : "PromQL",
-          "linkedRelationshipId" : "67"
-        } ],
-        "technology" : "Grafana",
-        "documentation" : { }
-      }, {
         "id" : "12",
         "tags" : "Element,Container,=,Database",
         "properties" : {
@@ -109,19 +85,44 @@
         "name" : "Image metadata database",
         "description" : "OLTP database storing metadata about images. Metadata includes tags, image ID, feedback etc.",
         "relationships" : [ {
-          "id" : "39",
-          "tags" : "Relationship",
-          "sourceId" : "12",
-          "destinationId" : "38",
-          "description" : "Write to analytics environment"
-        }, {
           "id" : "40",
           "sourceId" : "12",
           "destinationId" : "26",
           "description" : "Write to analytics environment",
           "linkedRelationshipId" : "39"
+        }, {
+          "id" : "39",
+          "tags" : "Relationship",
+          "sourceId" : "12",
+          "destinationId" : "38",
+          "description" : "Write to analytics environment"
         } ],
         "technology" : "PostgreSQL",
+        "documentation" : { }
+      }, {
+        "id" : "15",
+        "tags" : "Element,Container,FE",
+        "properties" : {
+          "structurizr.dsl.identifier" : "model_performance_dashboard"
+        },
+        "name" : "Model performance dashboard",
+        "description" : "Visualizes technical and functional metrics to provide insights into model performance.",
+        "relationships" : [ {
+          "id" : "68",
+          "sourceId" : "15",
+          "destinationId" : "59",
+          "description" : "Query metrics",
+          "technology" : "PromQL",
+          "linkedRelationshipId" : "67"
+        }, {
+          "id" : "67",
+          "tags" : "Relationship",
+          "sourceId" : "15",
+          "destinationId" : "60",
+          "description" : "Query metrics",
+          "technology" : "PromQL"
+        } ],
+        "technology" : "Grafana",
         "documentation" : { }
       }, {
         "id" : "17",
@@ -132,123 +133,6 @@
         "name" : "Serialized model",
         "description" : "Serialized model file containing the machine learning model weights and parameters stored in a model registry.",
         "technology" : "MLFlow",
-        "documentation" : { }
-      }, {
-        "id" : "22",
-        "tags" : "Element,Container,Pipeline",
-        "properties" : {
-          "structurizr.dsl.identifier" : "preprocessing"
-        },
-        "name" : "Data preprocessing",
-        "description" : "Pipeline that reads images and applies preprocessing logic (e.g. resizing).",
-        "relationships" : [ {
-          "id" : "34",
-          "sourceId" : "22",
-          "destinationId" : "27",
-          "description" : "Read images",
-          "linkedRelationshipId" : "32"
-        }, {
-          "id" : "35",
-          "sourceId" : "22",
-          "destinationId" : "26",
-          "description" : "Read images",
-          "linkedRelationshipId" : "32"
-        } ],
-        "components" : [ {
-          "id" : "24",
-          "tags" : "Element,Component,Pipeline",
-          "properties" : {
-            "structurizr.dsl.identifier" : "preprocessing_logic"
-          },
-          "name" : "Preprocessing",
-          "description" : "Reads raw images, preprocesses them and stores preprocessed images.",
-          "relationships" : [ {
-            "id" : "36",
-            "tags" : "Relationship",
-            "sourceId" : "24",
-            "destinationId" : "27",
-            "description" : "Write preprocessed images"
-          }, {
-            "id" : "37",
-            "sourceId" : "24",
-            "destinationId" : "26",
-            "description" : "Write preprocessed images",
-            "linkedRelationshipId" : "36"
-          } ],
-          "documentation" : { }
-        }, {
-          "id" : "23",
-          "tags" : "Element,Component,Pipeline",
-          "properties" : {
-            "structurizr.dsl.identifier" : "image_loading"
-          },
-          "name" : "Read images",
-          "description" : "Reads raw images from the data lake.",
-          "relationships" : [ {
-            "id" : "25",
-            "tags" : "Relationship",
-            "sourceId" : "23",
-            "destinationId" : "24",
-            "description" : "Call with images"
-          }, {
-            "id" : "32",
-            "tags" : "Relationship",
-            "sourceId" : "23",
-            "destinationId" : "27",
-            "description" : "Read images"
-          }, {
-            "id" : "33",
-            "sourceId" : "23",
-            "destinationId" : "26",
-            "description" : "Read images",
-            "linkedRelationshipId" : "32"
-          } ],
-          "documentation" : { }
-        } ],
-        "documentation" : { }
-      }, {
-        "id" : "20",
-        "tags" : "Element,Container,Pipeline",
-        "properties" : {
-          "structurizr.dsl.identifier" : "model_training"
-        },
-        "name" : "Model training",
-        "description" : "Pipeline that trains a new model based on labelled image data.",
-        "relationships" : [ {
-          "id" : "21",
-          "tags" : "Relationship",
-          "sourceId" : "20",
-          "destinationId" : "17",
-          "description" : "Write candidate model"
-        }, {
-          "id" : "28",
-          "tags" : "Relationship",
-          "sourceId" : "20",
-          "destinationId" : "27",
-          "description" : "Read preprocesses images"
-        }, {
-          "id" : "29",
-          "sourceId" : "20",
-          "destinationId" : "26",
-          "description" : "Read preprocesses images",
-          "linkedRelationshipId" : "28"
-        }, {
-          "id" : "42",
-          "tags" : "Relationship",
-          "sourceId" : "20",
-          "destinationId" : "38",
-          "description" : "Read labels"
-        } ],
-        "documentation" : { }
-      }, {
-        "id" : "16",
-        "tags" : "Element,Container",
-        "properties" : {
-          "structurizr.dsl.identifier" : "metric_collection_config"
-        },
-        "name" : "Metric collection configuration",
-        "description" : "Defines which metrics need to be collected from applications within the image tagging software system. Configuration is stored in git.",
-        "technology" : "Prometheus YAML",
         "documentation" : { }
       }, {
         "id" : "3",
@@ -275,6 +159,15 @@
         } ],
         "technology" : "Python, FastAPI",
         "components" : [ {
+          "id" : "6",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "metrics_endpoint"
+          },
+          "name" : "Metrics endpoint",
+          "description" : "Endpoint exposing text based metrics for Prometheus scraping.",
+          "documentation" : { }
+        }, {
           "id" : "8",
           "tags" : "Element,Component",
           "properties" : {
@@ -293,19 +186,19 @@
           "technology" : "PyTorch",
           "documentation" : { }
         }, {
-          "id" : "4",
+          "id" : "9",
           "tags" : "Element,Component",
           "properties" : {
-            "structurizr.dsl.identifier" : "prediction_endpoint"
+            "structurizr.dsl.identifier" : "model_preprocessing"
           },
-          "name" : "Prediction endpoint",
-          "description" : "Endpoint that receives images and returns tags.",
+          "name" : "Preprocessing",
+          "description" : "Preprocesses images before feeding them into the model.",
           "relationships" : [ {
-            "id" : "11",
+            "id" : "10",
             "tags" : "Relationship",
-            "sourceId" : "4",
-            "destinationId" : "9",
-            "description" : "Call with images"
+            "sourceId" : "9",
+            "destinationId" : "8",
+            "description" : "Call model"
           } ],
           "documentation" : { }
         }, {
@@ -332,31 +225,139 @@
           } ],
           "documentation" : { }
         }, {
-          "id" : "6",
+          "id" : "4",
           "tags" : "Element,Component",
           "properties" : {
-            "structurizr.dsl.identifier" : "metrics_endpoint"
+            "structurizr.dsl.identifier" : "prediction_endpoint"
           },
-          "name" : "Metrics endpoint",
-          "description" : "Endpoint exposing text based metrics for Prometheus scraping.",
-          "documentation" : { }
-        }, {
-          "id" : "9",
-          "tags" : "Element,Component",
-          "properties" : {
-            "structurizr.dsl.identifier" : "model_preprocessing"
-          },
-          "name" : "Preprocessing",
-          "description" : "Preprocesses images before feeding them into the model.",
+          "name" : "Prediction endpoint",
+          "description" : "Endpoint that receives images and returns tags.",
           "relationships" : [ {
-            "id" : "10",
+            "id" : "11",
             "tags" : "Relationship",
-            "sourceId" : "9",
-            "destinationId" : "8",
-            "description" : "Call model"
+            "sourceId" : "4",
+            "destinationId" : "9",
+            "description" : "Call with images"
           } ],
           "documentation" : { }
         } ],
+        "documentation" : { }
+      }, {
+        "id" : "22",
+        "tags" : "Element,Container,Pipeline",
+        "properties" : {
+          "structurizr.dsl.identifier" : "preprocessing"
+        },
+        "name" : "Data preprocessing",
+        "description" : "Pipeline that reads images and applies preprocessing logic (e.g. resizing).",
+        "relationships" : [ {
+          "id" : "35",
+          "sourceId" : "22",
+          "destinationId" : "26",
+          "description" : "Read images",
+          "linkedRelationshipId" : "32"
+        }, {
+          "id" : "34",
+          "sourceId" : "22",
+          "destinationId" : "27",
+          "description" : "Read images",
+          "linkedRelationshipId" : "32"
+        } ],
+        "components" : [ {
+          "id" : "24",
+          "tags" : "Element,Component,Pipeline",
+          "properties" : {
+            "structurizr.dsl.identifier" : "preprocessing_logic"
+          },
+          "name" : "Preprocessing",
+          "description" : "Reads raw images, preprocesses them and stores preprocessed images.",
+          "relationships" : [ {
+            "id" : "37",
+            "sourceId" : "24",
+            "destinationId" : "26",
+            "description" : "Write preprocessed images",
+            "linkedRelationshipId" : "36"
+          }, {
+            "id" : "36",
+            "tags" : "Relationship",
+            "sourceId" : "24",
+            "destinationId" : "27",
+            "description" : "Write preprocessed images"
+          } ],
+          "documentation" : { }
+        }, {
+          "id" : "23",
+          "tags" : "Element,Component,Pipeline",
+          "properties" : {
+            "structurizr.dsl.identifier" : "image_loading"
+          },
+          "name" : "Read images",
+          "description" : "Reads raw images from the data lake.",
+          "relationships" : [ {
+            "id" : "32",
+            "tags" : "Relationship",
+            "sourceId" : "23",
+            "destinationId" : "27",
+            "description" : "Read images"
+          }, {
+            "id" : "25",
+            "tags" : "Relationship",
+            "sourceId" : "23",
+            "destinationId" : "24",
+            "description" : "Call with images"
+          }, {
+            "id" : "33",
+            "sourceId" : "23",
+            "destinationId" : "26",
+            "description" : "Read images",
+            "linkedRelationshipId" : "32"
+          } ],
+          "documentation" : { }
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "20",
+        "tags" : "Element,Container,Pipeline",
+        "properties" : {
+          "structurizr.dsl.identifier" : "model_training"
+        },
+        "name" : "Model training",
+        "description" : "Pipeline that trains a new model based on labelled image data.",
+        "relationships" : [ {
+          "id" : "29",
+          "sourceId" : "20",
+          "destinationId" : "26",
+          "description" : "Read preprocesses images",
+          "linkedRelationshipId" : "28"
+        }, {
+          "id" : "21",
+          "tags" : "Relationship",
+          "sourceId" : "20",
+          "destinationId" : "17",
+          "description" : "Write candidate model"
+        }, {
+          "id" : "28",
+          "tags" : "Relationship",
+          "sourceId" : "20",
+          "destinationId" : "27",
+          "description" : "Read preprocesses images"
+        }, {
+          "id" : "42",
+          "tags" : "Relationship",
+          "sourceId" : "20",
+          "destinationId" : "38",
+          "description" : "Read labels"
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "16",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "metric_collection_config"
+        },
+        "name" : "Metric collection configuration",
+        "description" : "Defines which metrics need to be collected from applications within the image tagging software system. Configuration is stored in git.",
+        "technology" : "Prometheus YAML",
         "documentation" : { }
       } ],
       "documentation" : { }
@@ -414,19 +415,19 @@
         "technology" : "HTTPS",
         "linkedRelationshipId" : "49"
       }, {
-        "id" : "54",
-        "sourceId" : "43",
-        "destinationId" : "2",
-        "description" : "Request image tags",
-        "technology" : "HTTPS",
-        "linkedRelationshipId" : "49"
-      }, {
         "id" : "56",
         "sourceId" : "43",
         "destinationId" : "5",
         "description" : "Sends customer feedback",
         "technology" : "HTTPS",
         "linkedRelationshipId" : "55"
+      }, {
+        "id" : "54",
+        "sourceId" : "43",
+        "destinationId" : "2",
+        "description" : "Request image tags",
+        "technology" : "HTTPS",
+        "linkedRelationshipId" : "49"
       } ],
       "location" : "Unspecified",
       "containers" : [ {
@@ -464,13 +465,6 @@
         "name" : "Backend",
         "description" : "Server-side application handling user requests, managing inventory, and processing payments.",
         "relationships" : [ {
-          "id" : "49",
-          "tags" : "Relationship",
-          "sourceId" : "47",
-          "destinationId" : "4",
-          "description" : "Request image tags",
-          "technology" : "HTTPS"
-        }, {
           "id" : "50",
           "sourceId" : "47",
           "destinationId" : "3",
@@ -478,12 +472,12 @@
           "technology" : "HTTPS",
           "linkedRelationshipId" : "49"
         }, {
-          "id" : "51",
+          "id" : "49",
+          "tags" : "Relationship",
           "sourceId" : "47",
-          "destinationId" : "2",
+          "destinationId" : "4",
           "description" : "Request image tags",
-          "technology" : "HTTPS",
-          "linkedRelationshipId" : "49"
+          "technology" : "HTTPS"
         }, {
           "id" : "55",
           "tags" : "Relationship",
@@ -498,6 +492,13 @@
           "destinationId" : "57",
           "description" : "Read and write data",
           "technology" : "SQL"
+        }, {
+          "id" : "51",
+          "sourceId" : "47",
+          "destinationId" : "2",
+          "description" : "Request image tags",
+          "technology" : "HTTPS",
+          "linkedRelationshipId" : "49"
         } ],
         "documentation" : { }
       } ],
@@ -511,16 +512,16 @@
       "name" : "Metric collection",
       "description" : "Centrally managed system collecting metrics from various applications by scraping.",
       "relationships" : [ {
-        "id" : "63",
+        "id" : "64",
         "sourceId" : "59",
-        "destinationId" : "3",
+        "destinationId" : "2",
         "description" : "Scrapes metrics",
         "technology" : "HTTPS",
         "linkedRelationshipId" : "61"
       }, {
-        "id" : "64",
+        "id" : "63",
         "sourceId" : "59",
-        "destinationId" : "2",
+        "destinationId" : "3",
         "description" : "Scrapes metrics",
         "technology" : "HTTPS",
         "linkedRelationshipId" : "61"
@@ -541,13 +542,6 @@
         "name" : "Metric collector",
         "description" : "Application that collects metrics from various applications.",
         "relationships" : [ {
-          "id" : "61",
-          "tags" : "Relationship",
-          "sourceId" : "60",
-          "destinationId" : "3",
-          "description" : "Scrapes metrics",
-          "technology" : "HTTPS"
-        }, {
           "id" : "62",
           "sourceId" : "60",
           "destinationId" : "2",
@@ -560,6 +554,13 @@
           "sourceId" : "60",
           "destinationId" : "16",
           "description" : "Reads configuration"
+        }, {
+          "id" : "61",
+          "tags" : "Relationship",
+          "sourceId" : "60",
+          "destinationId" : "3",
+          "description" : "Scrapes metrics",
+          "technology" : "HTTPS"
         } ],
         "documentation" : { }
       } ],
@@ -573,42 +574,42 @@
       "order" : 1,
       "softwareSystemId" : "2",
       "dimensions" : {
-        "width" : 3040,
-        "height" : 1385
+        "width" : 3269,
+        "height" : 1344
       },
       "enterpriseBoundaryVisible" : true,
       "elements" : [ {
         "id" : "1",
-        "x" : -30,
-        "y" : 240
+        "x" : 200,
+        "y" : 199
       }, {
         "id" : "2",
-        "x" : 1639,
-        "y" : 290
+        "x" : 1869,
+        "y" : 249
       }, {
         "id" : "59",
-        "x" : 1639,
-        "y" : 884
+        "x" : 1869,
+        "y" : 843
       }, {
         "id" : "26",
-        "x" : 2389,
-        "y" : 290
+        "x" : 2619,
+        "y" : 249
       }, {
         "id" : "43",
-        "x" : 754,
-        "y" : 290
+        "x" : 984,
+        "y" : 249
       } ],
       "relationships" : [ {
         "id" : "70",
         "vertices" : [ {
-          "x" : 1714,
-          "y" : 743
+          "x" : 1944,
+          "y" : 702
         } ]
       }, {
         "id" : "64",
         "vertices" : [ {
-          "x" : 2014,
-          "y" : 743
+          "x" : 2244,
+          "y" : 702
         } ]
       }, {
         "id" : "54"
@@ -820,6 +821,7 @@
         } ]
       },
       "terminology" : { },
+      "metadataSymbols" : "SquareBrackets",
       "lastSavedView" : "Component-002"
     }
   }
