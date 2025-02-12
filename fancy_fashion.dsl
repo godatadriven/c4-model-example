@@ -6,7 +6,7 @@ workspace {
         tags "External, Person"
       }
       
-      image_tagging = softwareSystem "Image tagging" {
+      image_tagging = softwareSystem "Image tagging system" {
         description "Machine learning system categorising images of fashion items and generates tags for them to improve ease of finding items."
 
         model_application = container "Model application" {
@@ -76,12 +76,25 @@ workspace {
           description "Pipeline that trains a new model based on labelled image data."
           tags "Pipeline"
 
-          this -> model_file "Writes candidate model"
+          this -> model_file "Write candidate model"
         }
 
         preprocessing = container "Data preprocessing" {
           description "Pipeline that reads images and applies preprocessing logic (e.g. resizing)."
           tags "Pipeline"
+
+          image_loading = component "Read images" {
+            description "Reads raw images from the data lake."
+
+            tags "Pipeline"
+          }
+
+          preprocessing_logic = component "Preprocessing" {
+            description "Reads raw images, preprocesses them and stores preprocessed images."
+            tags "Pipeline"
+
+            image_loading -> this "Call with images"
+          }
         }
       }
       
@@ -95,8 +108,9 @@ workspace {
 
           technology "S3"
 
-          model_training -> this "Read images"
-          preprocessing -> this "Writes preprocessed images"
+          model_training -> this "Read preprocesses images"
+          image_loading -> this "Read images"
+          preprocessing_logic -> this "Write preprocessed images"
         }
 
         image_metadata = container "Image training data" {
@@ -146,7 +160,7 @@ workspace {
           description "Application that collects metrics from various applications."
           tags "External"
 
-          this -> metrics_endpoint "Scrapes metrics" "HTTPS"
+          this -> model_application "Scrapes metrics" "HTTPS"
           this -> metric_collection_config "Reads configuration"
           model_performance_dashboard -> this "Query metrics" "PromQL"
         }
@@ -169,7 +183,11 @@ workspace {
     component model_application {
       include *
     }
-        
+    
+    component preprocessing {
+      include *
+    }
+
     styles {
       element "Element" {
         background #4326FF
