@@ -8,26 +8,22 @@ workspace {
             tags "Pipeline"
         }
 
+        batch_layer = softwareSystem "Input data" {
+            elt -> this "Writes input data"
+
+            tags "External"
+            tags "Database"
+        }
+
         sync_serving = softwareSystem "Synchronous serving system" {
-            batch_layer = container "Input data" {
-                elt -> this "Writes input data"
-
-                tags "Database"
-            }
-
-            training = container "Model training" {
-                this -> batch_layer "Read training dataset"
-
-                tags "Pipeline"
-            }
 
             features = container "Pre-computed features" {
                 tags "Database"
             }
 
-            feature_engineering = container "Feature engineering" {
-                this -> features "Write features"
-                this -> batch_layer "Reads input data"
+            training = container "Model training" {
+                this -> batch_layer "Read training dataset"
+                this -> features "Write pre-computed features"
 
                 tags "Pipeline"
             }
@@ -49,7 +45,6 @@ workspace {
     views {
         container sync_serving {
             include *
-            autoLayout lr
         }
         
         theme default
@@ -61,8 +56,8 @@ workspace {
             element "Pipeline" {
                 shape Pipe
 
-                width 600
-                height 200
+                width 500
+                height 300
             }
             element "Database" {
                 shape Cylinder

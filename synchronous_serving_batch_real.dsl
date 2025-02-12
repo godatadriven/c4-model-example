@@ -13,29 +13,25 @@ workspace {
             tags "Message broker"
         }
 
+        batch_layer = softwareSystem "Input data" {
+            elt -> this "Writes input data"
+            tags "External"
+            tags "Database"
+        }
+
         features = softwareSystem "Feature store" {
-            kafka -> this "Writes features"
-            
+            kafka -> this "Writes real-time feature"
+            batch_layer -> this "Write batch feature"
+
             tags "External"
             tags "Database"
         }
 
         sync_serving = softwareSystem "Synchronous serving system with real-time and batch features" {
-            batch_layer = container "Input data" {
-                elt -> this "Writes input data"
 
-                tags "Database"
-            }
 
             training = container "Model training" {
-                this -> batch_layer "Read training dataset"
-
-                tags "Pipeline"
-            }
-
-            feature_engineering = container "Feature engineering" {
-                this -> features "Write features"
-                this -> batch_layer "Reads input data"
+                this -> features "Read training dataset"
 
                 tags "Pipeline"
             }
@@ -58,7 +54,7 @@ workspace {
         container sync_serving {
             include *
             include kafka
-            autoLayout lr
+            include batch_layer
         }
         
         theme default

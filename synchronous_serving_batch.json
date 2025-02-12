@@ -1,0 +1,221 @@
+{
+  "id" : 1,
+  "name" : "Name",
+  "description" : "Description",
+  "lastModifiedDate" : "2024-04-02T11:38:17Z",
+  "lastModifiedAgent" : "structurizr-javascript",
+  "properties" : {
+    "structurizr.dsl" : "d29ya3NwYWNlIHsKCiAgICBtb2RlbCB7CiAgICAgICAgY3VzdG9tZXIgPSBwZXJzb24gIkN1c3RvbWVyIiAiQ3VzdG9tZXIgdXNpbmcgdGhlIGFwcCIgIkV4dGVybmFsIgoKICAgICAgICBlbHQgPSBzb2Z0d2FyZVN5c3RlbSAiSW5nZXN0aW9uIHBpcGVsaW5lIiB7CiAgICAgICAgICAgIHRhZ3MgIkV4dGVybmFsIgogICAgICAgICAgICB0YWdzICJQaXBlbGluZSIKICAgICAgICB9CgogICAgICAgIGJhdGNoX2xheWVyID0gc29mdHdhcmVTeXN0ZW0gIklucHV0IGRhdGEiIHsKICAgICAgICAgICAgZWx0IC0+IHRoaXMgIldyaXRlcyBpbnB1dCBkYXRhIgoKICAgICAgICAgICAgdGFncyAiRXh0ZXJuYWwiCiAgICAgICAgICAgIHRhZ3MgIkRhdGFiYXNlIgogICAgICAgIH0KCiAgICAgICAgc3luY19zZXJ2aW5nID0gc29mdHdhcmVTeXN0ZW0gIlN5bmNocm9ub3VzIHNlcnZpbmcgc3lzdGVtIiB7CgogICAgICAgICAgICBmZWF0dXJlcyA9IGNvbnRhaW5lciAiUHJlLWNvbXB1dGVkIGZlYXR1cmVzIiB7CiAgICAgICAgICAgICAgICB0YWdzICJEYXRhYmFzZSIKICAgICAgICAgICAgfQoKICAgICAgICAgICAgdHJhaW5pbmcgPSBjb250YWluZXIgIk1vZGVsIHRyYWluaW5nIiB7CiAgICAgICAgICAgICAgICB0aGlzIC0+IGJhdGNoX2xheWVyICJSZWFkIHRyYWluaW5nIGRhdGFzZXQiCiAgICAgICAgICAgICAgICB0aGlzIC0+IGZlYXR1cmVzICJXcml0ZSBwcmUtY29tcHV0ZWQgZmVhdHVyZXMiCgogICAgICAgICAgICAgICAgdGFncyAiUGlwZWxpbmUiCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIG1vZGVsX2FwcCA9IGNvbnRhaW5lciAiTW9kZWwgd2ViIGFwcGxpY2F0aW9uIiB7CiAgICAgICAgICAgICAgICB0aGlzIC0+IGZlYXR1cmVzICJRdWVyaWVzIGZlYXR1cmVzIiAiU1FMIgogICAgICAgICAgICAgICAgdHJhaW5pbmcgLT4gdGhpcyAiRGVwbG95cyBtb2RlbCIKICAgICAgICAgICAgfQoKICAgICAgICAgICAgd2ViX2FwcCA9IGNvbnRhaW5lciAiV2ViIGFwcCIgewogICAgICAgICAgICAgICAgdGhpcyAtPiBtb2RlbF9hcHAgIlJlcXVlc3RzIHByZWRpY3Rpb24iICJIVFRQL2dSUEMiCiAgICAgICAgICAgICAgICBjdXN0b21lciAtPiB0aGlzICJVc2VzIgoKICAgICAgICAgICAgICAgIHRhZ3MgIlVJIgogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIHZpZXdzIHsKICAgICAgICBjb250YWluZXIgc3luY19zZXJ2aW5nIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgfQogICAgICAgIAogICAgICAgIHRoZW1lIGRlZmF1bHQKICAgICAgICAKICAgICAgICBzdHlsZXMgewogICAgICAgICAgICBlbGVtZW50ICJFeHRlcm5hbCIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjY2NjY2NjCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiUGlwZWxpbmUiIHsKICAgICAgICAgICAgICAgIHNoYXBlIFBpcGUKCiAgICAgICAgICAgICAgICB3aWR0aCA1MDAKICAgICAgICAgICAgICAgIGhlaWdodCAzMDAKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJEYXRhYmFzZSIgewogICAgICAgICAgICAgICAgc2hhcGUgQ3lsaW5kZXIKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJVSSIgewogICAgICAgICAgICAgICAgc2hhcGUgV2ViQnJvd3NlcgogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9Cg=="
+  },
+  "configuration" : { },
+  "model" : {
+    "people" : [ {
+      "id" : "1",
+      "tags" : "Element,Person,External",
+      "properties" : {
+        "structurizr.dsl.identifier" : "customer"
+      },
+      "name" : "Customer",
+      "description" : "Customer using the app",
+      "relationships" : [ {
+        "id" : "17",
+        "sourceId" : "1",
+        "destinationId" : "5",
+        "description" : "Uses",
+        "linkedRelationshipId" : "16"
+      }, {
+        "id" : "16",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "14",
+        "description" : "Uses"
+      } ],
+      "location" : "Unspecified"
+    } ],
+    "softwareSystems" : [ {
+      "id" : "2",
+      "tags" : "Element,Software System,External,Pipeline",
+      "properties" : {
+        "structurizr.dsl.identifier" : "elt"
+      },
+      "name" : "Ingestion pipeline",
+      "relationships" : [ {
+        "id" : "4",
+        "tags" : "Relationship",
+        "sourceId" : "2",
+        "destinationId" : "3",
+        "description" : "Writes input data"
+      } ],
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "5",
+      "tags" : "Element,Software System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "sync_serving"
+      },
+      "name" : "Synchronous serving system",
+      "relationships" : [ {
+        "id" : "9",
+        "sourceId" : "5",
+        "destinationId" : "3",
+        "description" : "Read training dataset",
+        "linkedRelationshipId" : "8"
+      } ],
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "11",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "model_app"
+        },
+        "name" : "Model web application",
+        "relationships" : [ {
+          "id" : "12",
+          "tags" : "Relationship",
+          "sourceId" : "11",
+          "destinationId" : "6",
+          "description" : "Queries features",
+          "technology" : "SQL"
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "7",
+        "tags" : "Element,Container,Pipeline",
+        "properties" : {
+          "structurizr.dsl.identifier" : "training"
+        },
+        "name" : "Model training",
+        "relationships" : [ {
+          "id" : "8",
+          "tags" : "Relationship",
+          "sourceId" : "7",
+          "destinationId" : "3",
+          "description" : "Read training dataset"
+        }, {
+          "id" : "10",
+          "tags" : "Relationship",
+          "sourceId" : "7",
+          "destinationId" : "6",
+          "description" : "Write pre-computed features"
+        }, {
+          "id" : "13",
+          "tags" : "Relationship",
+          "sourceId" : "7",
+          "destinationId" : "11",
+          "description" : "Deploys model"
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "6",
+        "tags" : "Element,Container,Database",
+        "properties" : {
+          "structurizr.dsl.identifier" : "features"
+        },
+        "name" : "Pre-computed features",
+        "documentation" : { }
+      }, {
+        "id" : "14",
+        "tags" : "Element,Container,UI",
+        "properties" : {
+          "structurizr.dsl.identifier" : "web_app"
+        },
+        "name" : "Web app",
+        "relationships" : [ {
+          "id" : "15",
+          "tags" : "Relationship",
+          "sourceId" : "14",
+          "destinationId" : "11",
+          "description" : "Requests prediction",
+          "technology" : "HTTP/gRPC"
+        } ],
+        "documentation" : { }
+      } ],
+      "documentation" : { }
+    }, {
+      "id" : "3",
+      "tags" : "Element,Software System,External,Database",
+      "properties" : {
+        "structurizr.dsl.identifier" : "batch_layer"
+      },
+      "name" : "Input data",
+      "location" : "Unspecified",
+      "documentation" : { }
+    } ]
+  },
+  "documentation" : { },
+  "views" : {
+    "containerViews" : [ {
+      "key" : "Container-001",
+      "order" : 1,
+      "softwareSystemId" : "5",
+      "dimensions" : {
+        "width" : 3220,
+        "height" : 2250
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "11",
+        "x" : 1800,
+        "y" : 250
+      }, {
+        "id" : "1",
+        "x" : 200,
+        "y" : 200
+      }, {
+        "id" : "14",
+        "x" : 975,
+        "y" : 250
+      }, {
+        "id" : "3",
+        "x" : 1800,
+        "y" : 1395
+      }, {
+        "id" : "6",
+        "x" : 2530,
+        "y" : 250
+      }, {
+        "id" : "7",
+        "x" : 1775,
+        "y" : 810
+      } ],
+      "relationships" : [ {
+        "id" : "16"
+      }, {
+        "id" : "15"
+      }, {
+        "id" : "13"
+      }, {
+        "id" : "12"
+      }, {
+        "id" : "8"
+      }, {
+        "id" : "10"
+      } ]
+    } ],
+    "configuration" : {
+      "branding" : { },
+      "styles" : {
+        "elements" : [ {
+          "tag" : "External",
+          "background" : "#cccccc"
+        }, {
+          "tag" : "Pipeline",
+          "width" : 500,
+          "height" : 300,
+          "shape" : "Pipe"
+        }, {
+          "tag" : "Database",
+          "shape" : "Cylinder"
+        }, {
+          "tag" : "UI",
+          "shape" : "WebBrowser"
+        } ]
+      },
+      "themes" : [ "https://static.structurizr.com/themes/default/theme.json" ],
+      "terminology" : { },
+      "metadataSymbols" : "SquareBrackets",
+      "lastSavedView" : "Container-001"
+    }
+  }
+}

@@ -7,14 +7,16 @@ workspace {
             tags "External"
             tags "Pipeline"
         }
+
+        batch_layer = softwareSystem "Input data" {
+            elt -> this "Writes input data"
+            
+            tags "External"
+            tags "Database"
+        }
         
         batch = softwareSystem "Batch prediction system" {
 
-            batch_layer = container "Input data" {
-                elt -> this "Writes input data"
-
-                tags "Database"
-            }
 
             training = container "Model training" {
                 this -> batch_layer "Read training dataset"
@@ -26,7 +28,7 @@ workspace {
                 tags "Database"
             }
 
-            predictions = container "Batch pipeline" {
+            predictions = container "Prediction pipeline" {
                 this -> batch_layer "Reads input data"
                 this -> serving_layer "Writes predictions"
                 training -> this "Trigger execution"
@@ -46,7 +48,6 @@ workspace {
     views {
         container batch {
             include *
-            autoLayout lr
         }
         
         theme default
@@ -58,8 +59,8 @@ workspace {
             element "Pipeline" {
                 shape Pipe
 
-                width 600
-                height 200
+                width 500
+                height 300
             }
             element "Database" {
                 shape Cylinder

@@ -1,0 +1,306 @@
+{
+  "id" : 1,
+  "name" : "Name",
+  "description" : "Description",
+  "lastModifiedDate" : "2024-05-15T13:41:36Z",
+  "properties" : {
+    "structurizr.dsl" : "d29ya3NwYWNlIHsKCiAgICBtb2RlbCB7CiAgICAgICAgY3VzdG9tZXIgPSBwZXJzb24gIkN1c3RvbWVyIiAiQ3VzdG9tZXIgdXNpbmcgdGhlIGFwcCIgIkV4dGVybmFsIgoKICAgICAgICBlbHQgPSBzb2Z0d2FyZVN5c3RlbSAiSW5nZXN0aW9uIHBpcGVsaW5lIiB7CiAgICAgICAgICAgIHRhZ3MgIkV4dGVybmFsIgogICAgICAgICAgICB0YWdzICJQaXBlbGluZSIKICAgICAgICB9CgogICAgICAgIGthZmthID0gc29mdHdhcmVTeXN0ZW0gIlJlYWwtdGltZSBpbmdlc3Rpb24gcGlwZWxpbmUiIHsKICAgICAgICAgICAgdGFncyAiRXh0ZXJuYWwiCiAgICAgICAgICAgIHRhZ3MgIk1lc3NhZ2UgYnJva2VyIgogICAgICAgIH0KCiAgICAgICAgYmF0Y2hfbGF5ZXIgPSBzb2Z0d2FyZVN5c3RlbSAiSW5wdXQgZGF0YSIgewogICAgICAgICAgICBlbHQgLT4gdGhpcyAiV3JpdGVzIGlucHV0IGRhdGEiCiAgICAgICAgICAgIGRlc2NyaXB0aW9uICJhZGRmYXNhZGZkZnMiCgogICAgICAgICAgICB0YWdzICJFeHRlcm5hbCIKICAgICAgICAgICAgdGFncyAiRGF0YWJhc2UiCiAgICAgICAgfQoKICAgICAgICBmZWF0dXJlcyA9IHNvZnR3YXJlU3lzdGVtICJGZWF0dXJlIHN0b3JlIiB7CiAgICAgICAgICAgIGthZmthIC0+IHRoaXMgIldyaXRlcyBmZWF0dXJlcyIKICAgICAgICAgICAgYmF0Y2hfbGF5ZXIgLT4gdGhpcyAiV3JpdGUgYmF0Y2ggZmVhdHVyZSIKCiAgICAgICAgICAgIHRhZ3MgIkV4dGVybmFsIgogICAgICAgICAgICB0YWdzICJEYXRhYmFzZSIKICAgICAgICB9CgogICAgICAgIGFzeW5jX3NlcnZpbmcgPSBzb2Z0d2FyZVN5c3RlbSAiU3RyZWFtaW5nIHNlcnZpbmcgc3lzdGVtIHdpdGggcmVhbC10aW1lIGFuZCBiYXRjaCBmZWF0dXJlcyIgewoKICAgICAgICAgICAgdHJhaW5pbmcgPSBjb250YWluZXIgIk1vZGVsIHRyYWluaW5nIiB7CiAgICAgICAgICAgICAgICB0aGlzIC0+IGZlYXR1cmVzICJSZWFkIHRyYWluaW5nIGRhdGFzZXQiCgogICAgICAgICAgICAgICAgdGFncyAiUGlwZWxpbmUiCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGlucHV0X3F1ZXVlID0gY29udGFpbmVyICJJbnB1dCBxdWV1ZSIgewogICAgICAgICAgICAgICAgdGFncyAiTWVzc2FnZSBicm9rZXIiCiAgICAgICAgICAgIH0KCgogICAgICAgICAgICBwcmVkaWN0aW9uX3F1ZXVlID0gY29udGFpbmVyICJQcmVkaWN0aW9uIHF1ZXVlIiB7CiAgICAgICAgICAgICAgICB0YWdzICJNZXNzYWdlIGJyb2tlciIKICAgICAgICAgICAgfQoKICAgICAgICAgICAgbW9kZWxfYXBwID0gY29udGFpbmVyICJNb2RlbCB3ZWIgYXBwbGljYXRpb24iIHsKICAgICAgICAgICAgICAgIHRoaXMgLT4gZmVhdHVyZXMgIlF1ZXJpZXMgZmVhdHVyZXMiICJTUUwiCiAgICAgICAgICAgICAgICB0cmFpbmluZyAtPiB0aGlzICJEZXBsb3lzIG1vZGVsIgoKICAgICAgICAgICAgICAgIHRoaXMgLT4gaW5wdXRfcXVldWUgIlJlYWQgZXZlbnQiCiAgICAgICAgICAgICAgICB0aGlzIC0+IHByZWRpY3Rpb25fcXVldWUgIldyaXRlIHByZWRpY3Rpb24iCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHdlYl9hcHAgPSBjb250YWluZXIgIldlYiBhcHAiIHsKICAgICAgICAgICAgICAgIHRoaXMgLT4gaW5wdXRfcXVldWUgIlJlcXVlc3RzIHByZWRpY3Rpb24iCiAgICAgICAgICAgICAgICB0aGlzIC0+IHByZWRpY3Rpb25fcXVldWUgIlJlYWRzIHByZWRpY3Rpb24iCgogICAgICAgICAgICAgICAgY3VzdG9tZXIgLT4gdGhpcyAiVXNlcyIKCiAgICAgICAgICAgICAgICB0YWdzICJVSSIKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICB2aWV3cyB7CiAgICAgICAgY29udGFpbmVyIGFzeW5jX3NlcnZpbmcgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgICAgaW5jbHVkZSBrYWZrYQogICAgICAgICAgICBpbmNsdWRlIGJhdGNoX2xheWVyCiAgICAgICAgfQogICAgICAgIAogICAgICAgIHRoZW1lIGRlZmF1bHQKICAgICAgICAKICAgICAgICBzdHlsZXMgewogICAgICAgICAgICBlbGVtZW50ICJFeHRlcm5hbCIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjY2NjY2NjCiAgICAgICAgICAgICAgICBkZXNjcmlwdGlvbiBmYWxzZQogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIlBpcGVsaW5lIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBQaXBlCgogICAgICAgICAgICAgICAgd2lkdGggNTAwCiAgICAgICAgICAgICAgICBoZWlnaHQgMzAwCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiTWVzc2FnZSBicm9rZXIiIHsKICAgICAgICAgICAgICAgIHNoYXBlIFBpcGUKCiAgICAgICAgICAgICAgICB3aWR0aCA2MDAKICAgICAgICAgICAgICAgIGhlaWdodCAyMDAKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJEYXRhYmFzZSIgewogICAgICAgICAgICAgICAgc2hhcGUgQ3lsaW5kZXIKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJVSSIgewogICAgICAgICAgICAgICAgc2hhcGUgV2ViQnJvd3NlcgogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9Cg=="
+  },
+  "configuration" : { },
+  "model" : {
+    "people" : [ {
+      "id" : "1",
+      "tags" : "Element,Person,External",
+      "properties" : {
+        "structurizr.dsl.identifier" : "customer"
+      },
+      "name" : "Customer",
+      "description" : "Customer using the app",
+      "relationships" : [ {
+        "id" : "23",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "20",
+        "description" : "Uses"
+      }, {
+        "id" : "24",
+        "sourceId" : "1",
+        "destinationId" : "9",
+        "description" : "Uses",
+        "linkedRelationshipId" : "23"
+      } ],
+      "location" : "Unspecified"
+    } ],
+    "softwareSystems" : [ {
+      "id" : "2",
+      "tags" : "Element,Software System,External,Pipeline",
+      "properties" : {
+        "structurizr.dsl.identifier" : "elt"
+      },
+      "name" : "Ingestion pipeline",
+      "relationships" : [ {
+        "id" : "5",
+        "tags" : "Relationship",
+        "sourceId" : "2",
+        "destinationId" : "4",
+        "description" : "Writes input data"
+      } ],
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "3",
+      "tags" : "Element,Software System,External,Message broker",
+      "properties" : {
+        "structurizr.dsl.identifier" : "kafka"
+      },
+      "name" : "Real-time ingestion pipeline",
+      "relationships" : [ {
+        "id" : "7",
+        "tags" : "Relationship",
+        "sourceId" : "3",
+        "destinationId" : "6",
+        "description" : "Writes features"
+      } ],
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "4",
+      "tags" : "Element,Software System,External,Database",
+      "properties" : {
+        "structurizr.dsl.identifier" : "batch_layer"
+      },
+      "name" : "Input data",
+      "description" : "addfasadfdfs",
+      "relationships" : [ {
+        "id" : "8",
+        "tags" : "Relationship",
+        "sourceId" : "4",
+        "destinationId" : "6",
+        "description" : "Write batch feature"
+      } ],
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "6",
+      "tags" : "Element,Software System,External,Database",
+      "properties" : {
+        "structurizr.dsl.identifier" : "features"
+      },
+      "name" : "Feature store",
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "9",
+      "tags" : "Element,Software System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "async_serving"
+      },
+      "name" : "Streaming serving system with real-time and batch features",
+      "relationships" : [ {
+        "id" : "12",
+        "sourceId" : "9",
+        "destinationId" : "6",
+        "description" : "Read training dataset",
+        "linkedRelationshipId" : "11"
+      } ],
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "14",
+        "tags" : "Element,Container,Message broker",
+        "properties" : {
+          "structurizr.dsl.identifier" : "prediction_queue"
+        },
+        "name" : "Prediction queue",
+        "documentation" : { }
+      }, {
+        "id" : "13",
+        "tags" : "Element,Container,Message broker",
+        "properties" : {
+          "structurizr.dsl.identifier" : "input_queue"
+        },
+        "name" : "Input queue",
+        "documentation" : { }
+      }, {
+        "id" : "20",
+        "tags" : "Element,Container,UI",
+        "properties" : {
+          "structurizr.dsl.identifier" : "web_app"
+        },
+        "name" : "Web app",
+        "relationships" : [ {
+          "id" : "21",
+          "tags" : "Relationship",
+          "sourceId" : "20",
+          "destinationId" : "13",
+          "description" : "Requests prediction"
+        }, {
+          "id" : "22",
+          "tags" : "Relationship",
+          "sourceId" : "20",
+          "destinationId" : "14",
+          "description" : "Reads prediction"
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "10",
+        "tags" : "Element,Container,Pipeline",
+        "properties" : {
+          "structurizr.dsl.identifier" : "training"
+        },
+        "name" : "Model training",
+        "relationships" : [ {
+          "id" : "11",
+          "tags" : "Relationship",
+          "sourceId" : "10",
+          "destinationId" : "6",
+          "description" : "Read training dataset"
+        }, {
+          "id" : "17",
+          "tags" : "Relationship",
+          "sourceId" : "10",
+          "destinationId" : "15",
+          "description" : "Deploys model"
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "15",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "model_app"
+        },
+        "name" : "Model web application",
+        "relationships" : [ {
+          "id" : "16",
+          "tags" : "Relationship",
+          "sourceId" : "15",
+          "destinationId" : "6",
+          "description" : "Queries features",
+          "technology" : "SQL"
+        }, {
+          "id" : "18",
+          "tags" : "Relationship",
+          "sourceId" : "15",
+          "destinationId" : "13",
+          "description" : "Read event"
+        }, {
+          "id" : "19",
+          "tags" : "Relationship",
+          "sourceId" : "15",
+          "destinationId" : "14",
+          "description" : "Write prediction"
+        } ],
+        "documentation" : { }
+      } ],
+      "documentation" : { }
+    } ]
+  },
+  "documentation" : { },
+  "views" : {
+    "containerViews" : [ {
+      "key" : "Container-001",
+      "order" : 1,
+      "softwareSystemId" : "9",
+      "paperSize" : "A3_Landscape",
+      "dimensions" : {
+        "width" : 4691,
+        "height" : 2158
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 240,
+        "y" : 885
+      }, {
+        "id" : "13",
+        "x" : 1717,
+        "y" : 1629
+      }, {
+        "id" : "14",
+        "x" : 817,
+        "y" : 1629
+      }, {
+        "id" : "3",
+        "x" : 2570,
+        "y" : 1610
+      }, {
+        "id" : "15",
+        "x" : 1792,
+        "y" : 935
+      }, {
+        "id" : "4",
+        "x" : 2645,
+        "y" : 355
+      }, {
+        "id" : "6",
+        "x" : 2645,
+        "y" : 935
+      }, {
+        "id" : "20",
+        "x" : 892,
+        "y" : 935
+      }, {
+        "id" : "10",
+        "x" : 1767,
+        "y" : 355
+      } ],
+      "relationships" : [ {
+        "id" : "18"
+      }, {
+        "id" : "17"
+      }, {
+        "id" : "16"
+      }, {
+        "id" : "23"
+      }, {
+        "id" : "11"
+      }, {
+        "id" : "22"
+      }, {
+        "id" : "7"
+      }, {
+        "id" : "21",
+        "vertices" : [ {
+          "x" : 1705,
+          "y" : 1390
+        } ]
+      }, {
+        "id" : "8"
+      }, {
+        "id" : "19",
+        "vertices" : [ {
+          "x" : 1370,
+          "y" : 1385
+        } ]
+      } ]
+    } ],
+    "configuration" : {
+      "branding" : { },
+      "styles" : {
+        "elements" : [ {
+          "tag" : "External",
+          "background" : "#cccccc",
+          "description" : false
+        }, {
+          "tag" : "Pipeline",
+          "width" : 500,
+          "height" : 300,
+          "shape" : "Pipe"
+        }, {
+          "tag" : "Message broker",
+          "width" : 600,
+          "height" : 200,
+          "shape" : "Pipe"
+        }, {
+          "tag" : "Database",
+          "shape" : "Cylinder"
+        }, {
+          "tag" : "UI",
+          "shape" : "WebBrowser"
+        } ]
+      },
+      "themes" : [ "https://static.structurizr.com/themes/default/theme.json" ],
+      "terminology" : { },
+      "lastSavedView" : "Container-001"
+    }
+  }
+}
