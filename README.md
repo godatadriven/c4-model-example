@@ -8,6 +8,14 @@ The example makes use of the DSL's basic functionality and some more advanced fe
 - [Machine Learning model serving platform](#machine-learning-model-serving-platform)
 - [Image classification use case](#image-classification)
 
+## Interactively edit diagram
+
+Using the above account you can interactively edit the location of the various components of the `ml_platform_architecture` diagrams.
+
+```bash
+docker run -it --rm -p 8080:8080 -v [/path/to/repo/root]:/usr/local/structurizr -e STRUCTURIZR_WORKSPACE_FILENAME=ml_platform_architecture structurizr/lite
+```
+
 ## Machine Learning model serving platform
 This example architecture describes a Machine Learning model serving platform. 
 

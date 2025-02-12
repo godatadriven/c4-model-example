@@ -1,0 +1,523 @@
+{
+  "id" : 1,
+  "name" : "Name",
+  "description" : "Description",
+  "lastModifiedDate" : "2025-02-12T08:44:32Z",
+  "lastModifiedAgent" : "structurizr-javascript",
+  "properties" : {
+    "structurizr.dsl" : "d29ya3NwYWNlIHsKCiAgICBtb2RlbCB7CiAgICAgICAgY3VzdG9tZXIgPSBwZXJzb24gIkN1c3RvbWVyIiAiQ3VzdG9tZXIgdXNpbmcgdGhlIGFwcCIgIkV4dGVybmFsIgogICAgICAgIGRhdGFfc2NpZW50aXN0ID0gcGVyc29uICJEYXRhIFNjaWVudGlzdCIgIkRhdGEgc2NpZW50aXN0IGRldmVsb3BpbmcgYSBtYWNoaW5lIGxlYXJuaW5nIG1vZGVsIiAiRXh0ZXJuYWwiCiAgICAgICAgCiAgICAgICAgbWxfcGxhdGZvcm0gPSBzb2Z0d2FyZVN5c3RlbSAiTUwgUGxhdGZvcm0iICJNYWNoaW5lIGxlYXJuaW5nIG1vZGVsIHNlcnZpbmcgcGxhdGZvcm0gZXhwb3NpbmcgbW9kZWxzIG92ZXIgUkVTVCBhbmQgS2Fma2EuIiB7CiAgICAgICAgICAgIHNpZGVjYXIgPSBjb250YWluZXIgIk1vZGVsIHNpZGVjYXIgYXBwbGljYXRpb24iICJBbWJhc3NhZG9yIHNpZGVjYXIgZm9yIE1MIG1vZGVsIiB7CiAgICAgICAgICAgICAgICBzdHJlYW1pbmdfbW9kdWxlID0gY29tcG9uZW50ICJTdHJlYW1pbmcgbW9kdWxlIiAiUmVhZHMgcHJlZGljdGlvbiByZXF1ZXN0cyBmcm9tIEthZmthIHRvcGljIGFuZCByZXR1cm5zIHByZWRpY3Rpb25zIHRvIGFub3RoZXIuInsKICAgICAgICAgICAgICAgIH0KICAgIAogICAgICAgICAgICAgICAgcmVzdF9tb2R1bGUgPSBjb21wb25lbnQgIlJFU1QgbW9kdWxlIiAiUmVjZWl2ZXMgcHJlZGljdGlvbiByZXF1ZXN0cyBhbmQgcmV0dXJucyByZXNwb25zZS4iCiAgICAgICAgICAgIH0KICAgICAgICAgICAgCiAgICAgICAgICAgIG1vZGVsX2NvbnRhaW5lciA9IGNvbnRhaW5lciAiTW9kZWwiICJNYWNoaW5lIGxlYXJuaW5nIG1vZGVsIHNlcnZpbmcgcHJlZGljdGlvbnMiIHsKICAgICAgICAgICAgICAgIHNpZGVjYXIgLT4gdGhpcyAiU2VuZHMgcmVxdWVzdCB0byIgIkdSUEMiCiAgICAgICAgICAgICAgICBtb2RlbF9tb2R1bGUgPSBjb21wb25lbnQgIlB5dGhvbiBtb2RlbCBpbXBsZW1lbnRhdGlvbiIgIlB5dGhvbiBNb2RlbCBjbGFzcyBpbXBsZW1lbnRpbmcgX19pbml0X18gYW5kIHByZWRpY3QgbWV0aG9kcyIgewogICAgICAgICAgICAgICAgICAgIGRhdGFfc2NpZW50aXN0IC0+IHRoaXMgIkRldmVsb3BzIgogICAgICAgICAgICAgICAgfQogICAgCiAgICAgICAgICAgICAgICBhcGlfbW9kdWxlID0gY29tcG9uZW50ICJNb2RlbCB3cmFwcGVyIiAiUHl0aG9uIG1vZGVsIHdyYXBwZXIgc2VydmluZyBwcmVkaWN0aW9ucyB1c2luZyBhIERhdGFmcmFtZSA9PiBEYXRhZnJhbWUgaW50ZXJmYWNlLiIgewogICAgICAgICAgICAgICAgICAgIHJlc3RfbW9kdWxlIC0+IHRoaXMgIlJlcXVlc3RzIHByZWRpY3Rpb24gZnJvbSIgIkdSUEMiCiAgICAgICAgICAgICAgICAgICAgc3RyZWFtaW5nX21vZHVsZSAtPiB0aGlzICJSZXF1ZXN0cyBwcmVkaWN0aW9uIGZyb20iICJHUlBDIgogICAgICAgICAgICAgICAgICAgIHRoaXMgLT4gbW9kZWxfbW9kdWxlICJJbml0aWFsaXplcyBhbmQgY2FsbHMgbW9kZWwuIgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIAogICAgICAgIGxvZ2dpbmcgPSBzb2Z0d2FyZVN5c3RlbSAiTG9nIGFnZ3JlZ2F0b3IiICJMb2dnaW5nIHN5c3RlbSBiYXNlZCBvbiBFTEsgc3RhY2siICJFeHRlcm5hbCIgewogICAgICAgICAgICBzaWRlY2FyIC0+IHRoaXMgIlNlbmRzIGxvZ3MgdG8iICJLYWZrYSIKICAgICAgICAgICAgbW9kZWxfY29udGFpbmVyIC0+IHRoaXMgIlNlbmRzIGxvZ3MgdG8iICJGaWxlYmVhdCIKICAgICAgICB9CiAgICAgICAgCiAgICAgICAgUlRLID0gc29mdHdhcmVTeXN0ZW0gIk1ldHJpY3MgY29sbGVjdG9yIiAiUmVsaWFiaWxpdHkgdG9vbGtpdCBzdXBwb3J0aW5nIHdlYiBhcHBsaWNhdGlvbiBtb25pdG9yaW5nIiAiRXh0ZXJuYWwiIHsKICAgICAgICAgICAgc2lkZWNhciAtPiB0aGlzICJFeHBvc2VzIG1ldHJpY3MgdG8iICJIVFRQIgogICAgICAgIH0KCiAgICAgICAgcmVzdF9jbGllbnQgPSBzb2Z0d2FyZVN5c3RlbSAiQmFja2VuZCBhcHBsaWNhdGlvbiBBIiAiQW55IGFwcGxpY2F0aW9uIHRoYXQgbWFrZXMgdXNlIG9mIGEgUkVTVCBtYWNoaW5lIGxlYXJuaW5nIG1vZGVsIiAiRXh0ZXJuYWwiIHsKICAgICAgICAgICAgdGhpcyAtPiByZXN0X21vZHVsZSAiUmVxdWVzdHMgcHJlZGljdGlvbiBmcm9tIiAiSFRUUCIKICAgICAgICB9CiAgICAgICAgCiAgICAgICAgc3RyZWFtaW5nX2NsaWVudCA9IHNvZnR3YXJlU3lzdGVtICJCYWNrZW5kIGFwcGxpY2F0aW9uIEIiICJBbnkgYXBwbGljYXRpb24gdGhhdCBtYWtlcyB1c2Ugb2YgYSBzdHJlYW1pbmcgbWFjaGluZSBsZWFybmluZyBtb2RlbCIgIkV4dGVybmFsIiB7CiAgICAgICAgICAgIHRoaXMgLT4gc3RyZWFtaW5nX21vZHVsZSAiU2VuZHMgcHJlZGljdGlvbiB0byIgIkthZmthIgogICAgICAgIH0KICAgICAgICAKICAgICAgICBjbGllbnRfZmUgPSBzb2Z0d2FyZVN5c3RlbSAiRkUgYXBwbGljYXRpb24iICJDbGllbnQgZnJvbnRlbmQgd2ViIGFwcGxpY2F0aW9uIiAiRXh0ZXJuYWwsRkUiIHsKICAgICAgICAgICAgdGhpcyAtPiByZXN0X2NsaWVudCAiUmVxdWVzdHMgaW5mb3JtYXRpb24gZnJvbSIgIkhUVFAiCiAgICAgICAgICAgIHRoaXMgLT4gc3RyZWFtaW5nX2NsaWVudCAiUmVxdWVzdHMgaW5mb3JtYXRpb24gZnJvbSIgIkhUVFAiCiAgICAgICAgICAgIGN1c3RvbWVyIC0+IHRoaXMgIlVzZXMiCiAgICAgICAgfQogICAgfQoKICAgIHZpZXdzIHsKICAgICAgICBzeXN0ZW1Db250ZXh0IG1sX3BsYXRmb3JtIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgIGluY2x1ZGUgY3VzdG9tZXIKICAgICAgICAgICAgaW5jbHVkZSBjbGllbnRfZmUKICAgICAgICAgICAgYXV0b2xheW91dCBscgogICAgICAgIH0KCiAgICAgICAgY29udGFpbmVyIG1sX3BsYXRmb3JtIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgIGF1dG9sYXlvdXQgbHIKICAgICAgICB9CgogICAgICAgIGNvbXBvbmVudCBtb2RlbF9jb250YWluZXIgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgICAgYXV0b2xheW91dCBscgogICAgICAgIH0KICAgICAgICAKICAgICAgICB0aGVtZSBkZWZhdWx0CiAgICAgICAgCiAgICAgICAgc3R5bGVzIHsKICAgICAgICAgICAgZWxlbWVudCAiRXh0ZXJuYWwiIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgI2NjY2NjYwogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIkZFIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBXZWJCcm93c2VyCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cn0K"
+  },
+  "configuration" : { },
+  "model" : {
+    "people" : [ {
+      "id" : "2",
+      "tags" : "Element,Person,External",
+      "properties" : {
+        "structurizr.dsl.identifier" : "data_scientist"
+      },
+      "name" : "Data Scientist",
+      "description" : "Data scientist developing a machine learning model",
+      "relationships" : [ {
+        "id" : "12",
+        "sourceId" : "2",
+        "destinationId" : "3",
+        "description" : "Develops",
+        "linkedRelationshipId" : "10"
+      }, {
+        "id" : "10",
+        "tags" : "Relationship",
+        "sourceId" : "2",
+        "destinationId" : "9",
+        "description" : "Develops"
+      }, {
+        "id" : "11",
+        "sourceId" : "2",
+        "destinationId" : "7",
+        "description" : "Develops",
+        "linkedRelationshipId" : "10"
+      } ],
+      "location" : "Unspecified"
+    }, {
+      "id" : "1",
+      "tags" : "Element,Person,External",
+      "properties" : {
+        "structurizr.dsl.identifier" : "customer"
+      },
+      "name" : "Customer",
+      "description" : "Customer using the app",
+      "relationships" : [ {
+        "id" : "38",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "35",
+        "description" : "Uses"
+      } ],
+      "location" : "Unspecified"
+    } ],
+    "softwareSystems" : [ {
+      "id" : "27",
+      "tags" : "Element,Software System,External",
+      "properties" : {
+        "structurizr.dsl.identifier" : "rest_client"
+      },
+      "name" : "Backend application A",
+      "description" : "Any application that makes use of a REST machine learning model",
+      "relationships" : [ {
+        "id" : "29",
+        "sourceId" : "27",
+        "destinationId" : "4",
+        "description" : "Requests prediction from",
+        "technology" : "HTTP",
+        "linkedRelationshipId" : "28"
+      }, {
+        "id" : "30",
+        "sourceId" : "27",
+        "destinationId" : "3",
+        "description" : "Requests prediction from",
+        "technology" : "HTTP",
+        "linkedRelationshipId" : "28"
+      }, {
+        "id" : "28",
+        "tags" : "Relationship",
+        "sourceId" : "27",
+        "destinationId" : "6",
+        "description" : "Requests prediction from",
+        "technology" : "HTTP"
+      } ],
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "20",
+      "tags" : "Element,Software System,External",
+      "properties" : {
+        "structurizr.dsl.identifier" : "logging"
+      },
+      "name" : "Log aggregator",
+      "description" : "Logging system based on ELK stack",
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "3",
+      "tags" : "Element,Software System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "ml_platform"
+      },
+      "name" : "ML Platform",
+      "description" : "Machine learning model serving platform exposing models over REST and Kafka.",
+      "relationships" : [ {
+        "id" : "26",
+        "sourceId" : "3",
+        "destinationId" : "24",
+        "description" : "Exposes metrics to",
+        "technology" : "HTTP",
+        "linkedRelationshipId" : "25"
+      }, {
+        "id" : "22",
+        "sourceId" : "3",
+        "destinationId" : "20",
+        "description" : "Sends logs to",
+        "technology" : "Kafka",
+        "linkedRelationshipId" : "21"
+      } ],
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "4",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "sidecar"
+        },
+        "name" : "Model sidecar application",
+        "description" : "Ambassador sidecar for ML model",
+        "relationships" : [ {
+          "id" : "21",
+          "tags" : "Relationship",
+          "sourceId" : "4",
+          "destinationId" : "20",
+          "description" : "Sends logs to",
+          "technology" : "Kafka"
+        }, {
+          "id" : "8",
+          "tags" : "Relationship",
+          "sourceId" : "4",
+          "destinationId" : "7",
+          "description" : "Sends request to",
+          "technology" : "GRPC"
+        }, {
+          "id" : "16",
+          "sourceId" : "4",
+          "destinationId" : "13",
+          "description" : "Requests prediction from",
+          "technology" : "GRPC",
+          "linkedRelationshipId" : "14"
+        }, {
+          "id" : "25",
+          "tags" : "Relationship",
+          "sourceId" : "4",
+          "destinationId" : "24",
+          "description" : "Exposes metrics to",
+          "technology" : "HTTP"
+        } ],
+        "components" : [ {
+          "id" : "5",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "streaming_module"
+          },
+          "name" : "Streaming module",
+          "description" : "Reads prediction requests from Kafka topic and returns predictions to another.",
+          "relationships" : [ {
+            "id" : "18",
+            "sourceId" : "5",
+            "destinationId" : "7",
+            "description" : "Requests prediction from",
+            "technology" : "GRPC",
+            "linkedRelationshipId" : "17"
+          }, {
+            "id" : "17",
+            "tags" : "Relationship",
+            "sourceId" : "5",
+            "destinationId" : "13",
+            "description" : "Requests prediction from",
+            "technology" : "GRPC"
+          } ],
+          "documentation" : { }
+        }, {
+          "id" : "6",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "rest_module"
+          },
+          "name" : "REST module",
+          "description" : "Receives prediction requests and returns response.",
+          "relationships" : [ {
+            "id" : "15",
+            "sourceId" : "6",
+            "destinationId" : "7",
+            "description" : "Requests prediction from",
+            "technology" : "GRPC",
+            "linkedRelationshipId" : "14"
+          }, {
+            "id" : "14",
+            "tags" : "Relationship",
+            "sourceId" : "6",
+            "destinationId" : "13",
+            "description" : "Requests prediction from",
+            "technology" : "GRPC"
+          } ],
+          "documentation" : { }
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "7",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "model_container"
+        },
+        "name" : "Model",
+        "description" : "Machine learning model serving predictions",
+        "relationships" : [ {
+          "id" : "23",
+          "tags" : "Relationship",
+          "sourceId" : "7",
+          "destinationId" : "20",
+          "description" : "Sends logs to",
+          "technology" : "Filebeat"
+        } ],
+        "components" : [ {
+          "id" : "13",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "api_module"
+          },
+          "name" : "Model wrapper",
+          "description" : "Python model wrapper serving predictions using a Dataframe => Dataframe interface.",
+          "relationships" : [ {
+            "id" : "19",
+            "tags" : "Relationship",
+            "sourceId" : "13",
+            "destinationId" : "9",
+            "description" : "Initializes and calls model."
+          } ],
+          "documentation" : { }
+        }, {
+          "id" : "9",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "model_module"
+          },
+          "name" : "Python model implementation",
+          "description" : "Python Model class implementing __init__ and predict methods",
+          "documentation" : { }
+        } ],
+        "documentation" : { }
+      } ],
+      "documentation" : { }
+    }, {
+      "id" : "35",
+      "tags" : "Element,Software System,External,FE",
+      "properties" : {
+        "structurizr.dsl.identifier" : "client_fe"
+      },
+      "name" : "FE application",
+      "description" : "Client frontend web application",
+      "relationships" : [ {
+        "id" : "37",
+        "tags" : "Relationship",
+        "sourceId" : "35",
+        "destinationId" : "31",
+        "description" : "Requests information from",
+        "technology" : "HTTP"
+      }, {
+        "id" : "36",
+        "tags" : "Relationship",
+        "sourceId" : "35",
+        "destinationId" : "27",
+        "description" : "Requests information from",
+        "technology" : "HTTP"
+      } ],
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "24",
+      "tags" : "Element,Software System,External",
+      "properties" : {
+        "structurizr.dsl.identifier" : "rtk"
+      },
+      "name" : "Metrics collector",
+      "description" : "Reliability toolkit supporting web application monitoring",
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "31",
+      "tags" : "Element,Software System,External",
+      "properties" : {
+        "structurizr.dsl.identifier" : "streaming_client"
+      },
+      "name" : "Backend application B",
+      "description" : "Any application that makes use of a streaming machine learning model",
+      "relationships" : [ {
+        "id" : "34",
+        "sourceId" : "31",
+        "destinationId" : "3",
+        "description" : "Sends prediction to",
+        "technology" : "Kafka",
+        "linkedRelationshipId" : "32"
+      }, {
+        "id" : "33",
+        "sourceId" : "31",
+        "destinationId" : "4",
+        "description" : "Sends prediction to",
+        "technology" : "Kafka",
+        "linkedRelationshipId" : "32"
+      }, {
+        "id" : "32",
+        "tags" : "Relationship",
+        "sourceId" : "31",
+        "destinationId" : "5",
+        "description" : "Sends prediction to",
+        "technology" : "Kafka"
+      } ],
+      "location" : "Unspecified",
+      "documentation" : { }
+    } ]
+  },
+  "documentation" : { },
+  "views" : {
+    "systemContextViews" : [ {
+      "key" : "SystemContext-001",
+      "order" : 1,
+      "softwareSystemId" : "3",
+      "dimensions" : {
+        "width" : 3800,
+        "height" : 2000
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "LeftRight",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 199,
+        "y" : 450
+      }, {
+        "id" : "2",
+        "x" : 1674,
+        "y" : 1400
+      }, {
+        "id" : "24",
+        "x" : 3149,
+        "y" : 500
+      }, {
+        "id" : "35",
+        "x" : 899,
+        "y" : 500
+      }, {
+        "id" : "3",
+        "x" : 2399,
+        "y" : 800
+      }, {
+        "id" : "27",
+        "x" : 1649,
+        "y" : 200
+      }, {
+        "id" : "20",
+        "x" : 3149,
+        "y" : 1100
+      }, {
+        "id" : "31",
+        "x" : 1649,
+        "y" : 800
+      } ],
+      "relationships" : [ {
+        "id" : "26"
+      }, {
+        "id" : "37"
+      }, {
+        "id" : "36"
+      }, {
+        "id" : "12"
+      }, {
+        "id" : "34"
+      }, {
+        "id" : "22"
+      }, {
+        "id" : "30"
+      }, {
+        "id" : "38"
+      } ]
+    } ],
+    "containerViews" : [ {
+      "key" : "Container-001",
+      "order" : 2,
+      "softwareSystemId" : "3",
+      "dimensions" : {
+        "width" : 3100,
+        "height" : 2161
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "LeftRight",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "2",
+        "x" : 975,
+        "y" : 199
+      }, {
+        "id" : "24",
+        "x" : 1700,
+        "y" : 1499
+      }, {
+        "id" : "4",
+        "x" : 950,
+        "y" : 899
+      }, {
+        "id" : "27",
+        "x" : 200,
+        "y" : 599
+      }, {
+        "id" : "7",
+        "x" : 1700,
+        "y" : 899
+      }, {
+        "id" : "20",
+        "x" : 2450,
+        "y" : 1503
+      }, {
+        "id" : "31",
+        "x" : 200,
+        "y" : 1199
+      } ],
+      "relationships" : [ {
+        "id" : "29"
+      }, {
+        "id" : "25"
+      }, {
+        "id" : "11"
+      }, {
+        "id" : "23"
+      }, {
+        "id" : "33"
+      }, {
+        "id" : "8"
+      }, {
+        "id" : "21",
+        "vertices" : [ {
+          "x" : 1700,
+          "y" : 1949
+        }, {
+          "x" : 2254,
+          "y" : 1949
+        } ]
+      } ]
+    } ],
+    "componentViews" : [ {
+      "key" : "Component-001",
+      "order" : 3,
+      "paperSize" : "A5_Landscape",
+      "dimensions" : {
+        "width" : 2470,
+        "height" : 1520
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "LeftRight",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "containerId" : "7",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "2",
+        "x" : 983,
+        "y" : 208
+      }, {
+        "id" : "13",
+        "x" : 958,
+        "y" : 908
+      }, {
+        "id" : "4",
+        "x" : 208,
+        "y" : 908
+      }, {
+        "id" : "9",
+        "x" : 1708,
+        "y" : 908
+      } ],
+      "relationships" : [ {
+        "id" : "16"
+      }, {
+        "id" : "10"
+      }, {
+        "id" : "19"
+      } ]
+    } ],
+    "configuration" : {
+      "branding" : { },
+      "styles" : {
+        "elements" : [ {
+          "tag" : "External",
+          "background" : "#cccccc"
+        }, {
+          "tag" : "FE",
+          "shape" : "WebBrowser"
+        } ]
+      },
+      "themes" : [ "https://static.structurizr.com/themes/default/theme.json" ],
+      "terminology" : { },
+      "metadataSymbols" : "SquareBrackets",
+      "lastSavedView" : "SystemContext-001"
+    }
+  }
+}
