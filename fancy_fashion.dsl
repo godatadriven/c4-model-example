@@ -12,6 +12,33 @@ workspace {
         model_application = container "Model application" {
           description "Machine learning model application serving model online synchronously as a REST API. Receives images and returns tags. Includes an endpoint to gather feedback from customers on tags. Exposes metrics endpoint to monitor performance."
           technology "Python, FastAPI"
+
+          prediction_endpoint = component "Prediction endpoint" {
+            description "Endpoint that receives images and returns tags."
+          }
+
+          feedback_endpoint = component "Feedback endpoint" {
+            description "Endpoint that receives advertisement ID, model ID, and tags."
+          }
+
+          metrics_endpoint = component "Metrics endpoint" {
+            description "Endpoint exposing text based metrics for Prometheus scraping."
+
+            feedback_endpoint -> this "Set feedback metrics"
+          }
+
+          prediction_model = component "Image classification model" {
+            description "Machine learning model that predicts tags for images."
+
+            technology "PyTorch"
+          }
+
+          model_preprocessing = component "Preprocessing" {
+            description "Preprocesses images before feeding them into the model."
+
+            this -> prediction_model "Call model"
+            prediction_endpoint -> this "Call with images"
+          }
         }
 
         image_metadata_db = container "Image metadata database" {
@@ -20,7 +47,7 @@ workspace {
 
           technology "PostgreSQL"
 
-          model_application -> this "Read and write data" "ODBC"
+          feedback_endpoint -> this "Read and write data" "ODBC"
         }
 
         model_performance_dashboard = container "Model performance dashboard" {
@@ -42,7 +69,7 @@ workspace {
 
           technology "MLFlow"
 
-          model_application -> this "Loads model" "HTTPS"
+          prediction_model -> this "Loads model" "HTTPS"
         }
 
         model_training = container "Model training" {
@@ -99,7 +126,8 @@ workspace {
           tags "External"
 
           front_end   -> this "Request advertisement data" "HTTPS"
-          this        -> model_application "Request image tags and sends customer feedback" "HTTPS"
+          this        -> prediction_endpoint "Request image tags" "HTTPS"
+          this        -> feedback_endpoint "Sends customer feedback" "HTTPS"
         }
 
         database = container "Database" {
@@ -118,7 +146,7 @@ workspace {
           description "Application that collects metrics from various applications."
           tags "External"
 
-          this -> model_application "Scrapes metrics" "HTTPS"
+          this -> metrics_endpoint "Scrapes metrics" "HTTPS"
           this -> metric_collection_config "Reads configuration"
           model_performance_dashboard -> this "Query metrics" "PromQL"
         }
@@ -138,6 +166,9 @@ workspace {
       include model_training->images
     }
     
+    component model_application {
+      include *
+    }
         
     styles {
       element "Element" {
